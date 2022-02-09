@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: TMaize Blog
-description: TMaize的个人博客
-keywords: TMaize,Blog,Java,Html,JavaScript
-author: TMaize
-footerText: 'Copyright © 2016 皖ICP备16016174号'
+title: AntiTopQuark Blog
+description: LIke a dog
+keywords: AntiTopQuark,Blog,C++,Database,Oceanabse
+author: AntiTopQuark
+footerText: 'Copyright © 2022 皖ICP备16016174号'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
