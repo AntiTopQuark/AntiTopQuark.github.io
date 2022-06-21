@@ -5,7 +5,7 @@ title: AntiTopQuark Blog
 description: LIke a dog
 keywords: AntiTopQuark,Blog,C++,Database,Oceanabse
 author: AntiTopQuark
-footerText: 'Copyright © 2022 皖ICP备16016174号'
+footerText: ' '
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -35,14 +35,14 @@ menu:
     url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: true
+extClickEffect: false
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
 extAdsense: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
+extMath: true
 
 # 友情链接
 links:
