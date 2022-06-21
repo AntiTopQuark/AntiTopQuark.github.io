@@ -1,11 +1,36 @@
-<footer class="footer">
-  <span>{{ site.footerText }}</span>
-  <a href="{{ site.baseurl }}/static/xml/rss.xml">RSS订阅</a>
-  {%- comment %} 请保留主题来源，么么哒~ {% endcomment %}
-  <span>Theme By</span>
-  <a href="https://github.com/TMaize/tmaize-blog">TMaize</a>
+<!-- The Footer -->
+
+<footer class="row pl-3 pr-3">
+  <div class="col-12 d-flex justify-content-between align-items-center text-muted pl-0 pr-0">
+    <div class="footer-left">
+      <p class="mb-0">
+        © {{ 'now' | date: "%Y" }}
+        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+        {% if site.data.locales[lang].copyright.brief %}
+        <span data-toggle="tooltip" data-placement="top"
+          title="{{ site.data.locales[lang].copyright.verbose }}">{{ site.data.locales[lang].copyright.brief }}</span>
+        {% endif %}
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <p class="mb-0">
+        {% capture _platform %}
+          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+        {% endcapture %}
+
+        {% capture _theme %}
+          <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+        {% endcapture %}
+
+        {{ site.data.locales[lang].meta
+          | default: 'Powered by :PLATFORM with :THEME theme.'
+          | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
+        }}
+
+      </p>
+    </div>
+
+  </div>
+
 </footer>
-<div id="to-top">
-  <span></span>
-  <span></span>
-</div>
