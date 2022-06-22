@@ -1,7 +1,7 @@
 ---
-layout: post
 title: "阿里云+PicGo+Typora实现有图床的MarkDown"
 date: 2021/04/13 20:37:55
+author: AntiTopQuark
 tags: 笔记
 ---
 
