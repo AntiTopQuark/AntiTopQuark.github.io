@@ -1,52 +1,9 @@
 ---
 layout: post
-cid: 35
 title: Zookeeper简介
-slug: 35
 date: 2021/04/13 17:15:00
-updated: 2021/04/13 17:16:11
-status: publish
 author: AntiTopQuark
-categories: 
-  - Hadoop
-  - 大数据
-tags: 
-  - 类型
-  - 节点
-  - 逻辑
-  - 方法
-  - 系统
-  - 一致性
-  - 状态
-  - 进程
-  - 文件
-  - 数据
-  - 操作
-  - 机器
-  - 客户端
-  - 模型
-  - 流程
-  - 过程
-  - master
-  - 原理
-  - 服务器
-  - zookeeper
-  - leader
-  - 选举
-  - 创建
-  - 锁
-  - lock
-  - 通知
-  - 问题
-customSummary: 
-noThumbInfoStyle: default
-outdatedNotice: no
-reprint: standard
-thumb: 
-thumbChoice: default
-thumbDesc: 
-thumbSmall: 
-thumbStyle: default
+tags: Zookeeper
 ---
 
 
