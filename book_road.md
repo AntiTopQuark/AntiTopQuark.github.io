@@ -1,6 +1,5 @@
 ---
 title: 读书进展
-slug: road
 date: 2022/04/26 08:29:00
 updated: 2022/05/28 00:23:43
 author: AntiTopQuark
