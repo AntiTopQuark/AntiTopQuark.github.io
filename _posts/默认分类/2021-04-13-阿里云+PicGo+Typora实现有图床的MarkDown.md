@@ -1,45 +1,8 @@
 ---
 layout: post
-cid: 80
-title: 阿里云+PicGo+Typora实现有图床的MarkDown
-slug: 80
+title: "阿里云+PicGo+Typora实现有图床的MarkDown"
 date: 2021/04/13 20:37:55
-updated: 2021/04/13 20:37:55
-status: publish
-author: AntiTopQuark
-categories: 
-  - 默认分类
-tags: 
-  - 类型
-  - 前言
-  - 系统
-  - 存储
-  - 界面
-  - 用户
-  - 对象
-  - 文件
-  - 任务
-  - 数据
-  - 笔记
-  - 流程
-  - 过程
-  - 安装
-  - 软件
-  - typora
-  - oss
-  - 步骤
-  - picgo
-  - 点击
-  - 问题
-customSummary: 
-noThumbInfoStyle: default
-outdatedNotice: no
-reprint: standard
-thumb: 
-thumbChoice: default
-thumbDesc: 
-thumbSmall: 
-thumbStyle: default
+tags: 笔记
 ---
 
 
